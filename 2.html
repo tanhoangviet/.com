@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Key 2</title>
+</head>
+<body>
+    <h1>Get Key 2</h1>
+    <p>Click the button to proceed:</p>
+    <button onclick="redirectToNextPage('3.html')">Proceed</button>
+    <script>
+        function redirectToNextPage(nextPageUrl) {
+            // Redirect to the next HTML after 5 seconds
+            setTimeout(function() {
+                window.location.href = nextPageUrl; // Redirect to the next HTML
+            }, 5000); // 5000 milliseconds = 5 seconds
+        }
+    </script>
+</body>
+</html>
